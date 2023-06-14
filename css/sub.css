@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    
+    font-family: 'Titillium Web','Noto Sans KR', sans-serif;
+    
+}
+
+.top{
+    width: 100%;
+    border-bottom: 3px solid blue;
+}
+
+.top .inner{
+    width: 1314px;
+    height: 300px;
+    border: dashed #999;
+    margin: 0 auto;
+}
+
+.info{
+    width: 100%;
+    border-bottom: 3px solid blue;
+}
+.info .inner{
+    width: 1314px;
+    height: 700px;
+    border: dashed #999;
+    margin: 0 auto;
+}
+
+.btn_close{
+    position: fixed;
+    right: 200px;
+    top: 150px;
+    background: red;
+    padding: 24px;
+}

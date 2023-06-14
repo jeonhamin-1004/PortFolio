@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery.lightbox-0.5.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.lightbox-0.5-mod.js"></script>
+    <script src="./js/main.js"></script>
+    <style>
+          .skill{
+            width: 600px;
+            
+            margin: 0 auto;
+        }
+        .skill .chart{
+            width: 100%;
+            height: 25px;
+            background: #fff;
+            border-radius: 6px;
+            margin-bottom: 8px;
+           
+        }
+        .skill h3{
+            color: #fff;
+        }
+        .skill .photoshop span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: photoshop_ani 2s ease forwards;
+        }
+        @keyframes photoshop_ani{
+            0%{width: 0;}
+            100%{width: 90%;}
+        }
+        .skill .illustrator span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: illustrator_ani 2s ease forwards;
+        }
+        @keyframes illustrator_ani{
+            0%{width: 0;}
+            100%{width: 90%;}
+        }
+        .skill .figma span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: figma_ani 2s ease forwards;
+        }
+        @keyframes figma_ani{
+            0%{width: 0;}
+            100%{width: 100%;}
+        }
+        .skill .vue span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: vue_ani 2s ease forwards;
+        }
+        @keyframes vue_ani{
+            0%{width: 0;}
+            100%{width: 60%;}
+        }
+        .skill .css span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: css_ani 2s ease forwards;
+        }
+        @keyframes css_ani{
+            0%{width: 0;}
+            100%{width: 80%;}
+        }
+        .skill .js span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: js_ani 2s ease forwards;
+        }
+        @keyframes js_ani{
+            0%{width: 0;}
+            100%{width: 80%;}
+        }
+        .skill .jqu span{
+            display: block;
+            width: 90%;
+            height: 25px;
+            background: skyblue;
+            color: #fff;
+            border-radius: 6px;
+            text-align: right;
+            animation: jqu_ani 2s ease forwards;
+        }
+        @keyframes jqu_ani{
+            0%{width: 0;}
+            100%{width: 80%;}
+        }
+    </style>
+  
+</head>
+<body>
+    <!-- 스크롤바 위치정보 -->
+ 
+    <!-- <nav class="quick">
+        <ul>
+            <li><a href="#disign">design</a></li>
+            <li><a href="#coding">coding</a></li>
+            <li><a href="#etc">etc</a></li>
+        </ul>
+    </nav> -->
+    
+    <header id="header">
+        <div class="inner"> 
+            <h1>
+                <a href="index.html">
+                    PortFolio
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#about">About</a></li>
+                  
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <div id="home">
+        
+        <div class="inner">
+            <div class="typo">
+                <p class="t1">
+                    Lover the life  you live<br>
+                    live the life you love<br>
+                    
+                </p>
+                <p class="t2">
+                    Every moment is a fresh beginning<br>
+                    
+                </p>
+            </div>
+        </div>
+       
+    </div>
+
+    
+
+    <section id="portfolio"> 
+        <div class="inner">
+            <h2>PortFolio</h2>
+            <ul class="list">
+                <li>
+                    <div class="thum menu">
+                        <a href="./images/단풍.jpg">
+                            <img src="./images/단풍.jpg" alt="" >
+                            <div class="over">
+                               
+                            </div>
+                        </a>
+                    </div>
+                   
+                </li>
+                <!-- 모달팝업 -->
+                <li>
+                    <div class="thum menu">
+                        <a href="./images/바다.jpg">
+                            <img src="./images/바다.jpg" alt="">
+                            <div class="over">
+                                   
+                            </div>
+                        </a>
+                    </div>
+                   
+                      <!-- 모달팝업 -->
+                      
+                </li>
+                <li>
+                    <div class="thum menu">
+                        <a href="./images/일러스트레이션_전하민.jpg">
+                            <img src="./images/일러스트레이션_전하민.jpg" alt="">
+                            <div class="over">
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="modal_popup">
+                        <div class="info">
+                            팝업으로 설명
+
+                        </div>
+                        <a href="javascript:void(0)" class="btn_modal">닫기</a>
+                      </div> -->
+                    
+                </li>
+                <li>
+                    <div class="thum">
+                        <a href="./images/전단지.jpg">
+                            <img src="./images/전단지.jpg" alt="">
+                            <div class="over">
+                               
+                            </div>
+                        </a>
+                    </div>
+                   
+                </li>
+                <li>
+                    <div class="thum">
+                        <a href="./images/커피.jpg">
+                            <img src="./images/커피.jpg" alt="">
+                            <div class="over">
+                                
+                            </div>
+                        </a>
+                    </div>
+                  
+                </li>
+                <li>
+                    <div class="thum">
+                        <a href="./images/현수막.jpg">
+                            <img src="./images/현수막.jpg" alt="">
+                            <div class="over">
+                                
+                            </div>
+                        </a>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="inner">
+            <h2>About</h2>
+            <dl class="info">
+                <dt>Name</dt>
+                <dd>Jeon Ha Min</dd>
+                <dt>Birth</dt>  
+                <dd>1996.08.30</dd>
+                <dt>Residence</dt>
+                <dd>Gimpo Korea</dd>
+                <dt>Major</dt>
+                <dd>Web Design / Publishing</dd>
+                <dt>Skill</dt>
+                <dd>Photoshp,Illustrator,Html5,CSS3,javascript,jQuery,Vue.js</dd>
+                <dt>Blood type</dt>
+                <dd>A</dd>  
+                <dt>Hobby</dt>
+                <dd>Photography</dd>
+            </dl>
+            <div class="skill">
+                <h3>Photoshop</h3>
+                <div class="chart photoshop">
+                    <span>90%</span>
+                </div>
+                <h3>illustrator</h3>
+                <div class="chart illustrator">
+                    <span>90%</span>
+                </div>
+                <h3>FIGMA</h3>
+                <div class="chart figma">
+                    <span>100%</span>
+                </div>
+                <h3>Vue.js</h3>
+                <div class="chart vue">
+                    <span>60%</span>
+                </div>
+                <h3>CSS3</h3>
+                <div class="chart css">
+                    <span>80%</span>
+                </div>
+                <h3>javascript</h3>
+                <div class="chart js">
+                    <span>80%</span>
+                </div>
+                <h3>jQuery</h3>
+                <div class="chart jqu">
+                    <span>80%</span>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="Contact">
+        <div class="inner">
+        <h2>Contact</h2>
+        <dl class="info">
+            <dt>E-mail</dt>
+            <dd>qmdldhwm4@naver.com</dd>
+            <dt>Messenger</dt>
+            <dd>vmfhsxldj000@nate.com</dd>
+            <dt>KaKaotalk</dt>
+            <dd>jhm6148</dd>
+            <dt>H.P</dt>
+            <dd>010-6419-6148</dd>
+        </dl>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="inner"> 
+            <p class="copy">
+                CopyWrite @copy; 2030 My-portfolio all right reserved
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>

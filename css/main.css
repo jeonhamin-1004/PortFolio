@@ -1,0 +1,309 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    
+    font-family: 'Titillium Web','Noto Sans KR', sans-serif;
+    
+}
+/* 퀵메뉴 */
+.quick{
+    position: fixed;
+    right: -200px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    background: red;
+    color: #fff;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+
+
+#header{
+    width: 100%;
+   
+    background: #C4D5D3;
+  
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+
+#header .inner{
+    width: 1314px;
+    height: 120px;
+    
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .inner h1{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    
+    transform: translateY(-50%);
+
+}
+
+#header .inner h1 a{
+    font-size: 70px;
+    color: #fff;
+
+}
+#header .inner .gnb{
+    position: absolute;
+    right: 0;
+    bottom: 26px;
+    
+    
+}
+
+#header .inner .gnb ul{
+    display: flex;
+    gap: 40px;
+    
+}
+#header .inner .gnb ul a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#home{
+    width: 100%;
+    background: #CAD8E4;
+
+}
+#home .inner{
+    width: 1314px;
+    margin: 0 auto;
+  
+}
+#home .inner .typo{
+    padding: 350px  0 340px 200px;
+}
+#home .inner .typo .t1{
+    font-size: 103px;
+    line-height: 103px;
+    color: #fff;
+    
+}
+
+#home .inner .typo .t2{
+    color: #fff;
+    font-size: 30px;
+    line-height: 26px;
+    padding-top: 50px;
+}
+
+#about{
+    background: #CAD8E4;
+}
+
+#about .inner{
+    width: 1314px;
+    margin: 0 auto;
+    
+    padding: 280px 0 500px
+}
+
+#about .inner h2{
+    color: #fff;
+    font-weight: 200;
+    font-size: 120px;
+    text-align: center;
+    padding-bottom: 120px;
+    
+    
+}
+#about .inner .info{
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+    line-height: 30px;
+    
+    color: #fff;
+    margin: auto;
+    padding: 100px;
+    
+  
+}
+
+#about .inner .info dt{
+    float: left;
+   
+    width: 135px;
+}
+#about .inner .info dd{
+    margin-left: 140px;
+    margin-bottom: 50px;
+    height: 28px;
+    border: 3px solid transparent;
+}
+
+#portfolio{
+    background: #fff;
+}
+
+#portfolio .inner{
+    width: 1314px;
+    margin: 0 auto;
+    padding: 280px 0 380px;
+}
+
+#portfolio .inner h2{
+    font-size: 120px;
+    font-weight: 200;
+    color: #333;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+#portfolio .inner .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .inner .list li{
+    width: 33.33%;
+    margin-bottom: 115px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#portfolio .inner .list li .thum{
+    width: 414px;
+    height: 523px;
+    background: #898989;
+    margin: 0 auto;
+    position: relative;
+}
+#portfolio .inner .list img{
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio .inner .list li .thum .over{
+    width: 414px;
+    height: 523px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+#portfolio .inner .list li .thum:hover .over{
+    opacity: 1;
+}
+
+#portfolio .inner .list li .tit{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#portfolio .inner .list li .tit h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#portfolio .inner .list li .tit p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 12px;
+}
+/* 모달팝업 */
+.modal_popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 25, 25, 0.9);
+    z-index: 200;
+}
+.modal_popup .info{
+    width: 1314px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.btn_modal{
+    position: fixed;
+    right: 100px;
+    top: 100px;
+    background: red;
+    padding: 24px;
+    color: #fff;
+    }
+#Contact{
+    width: 100%;
+    background: #fff;
+
+}
+#Contact .inner{
+    width: 1314px;
+    margin: 0 auto;
+    
+    padding: 280px 0 500px
+}
+
+#Contact .inner h2{
+    color: #000;
+    font-weight: 200;
+    font-size: 90px;
+    text-align: center;
+  
+    
+}
+
+#Contact .inner .info{
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+    line-height: 30px;
+    
+    color: #000;
+    margin: auto;
+    padding: 100px;
+}
+
+#Contact .inner .info dt{
+    float: left;
+   
+    width: 135px;
+
+}
+#Contact .inner .info dd{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    height: 28px;
+    border: 3px solid transparent;
+}
+
+
+#footer{
+    width: 100%;
+    height: 120px;
+    background: #C4D5D3;
+    text-align: center;
+    line-height: 120px;
+    
+
+}
+
+#footer p{
+    color: #fff;
+    font-size: 20px;
+}
+
